@@ -25,7 +25,7 @@ export default function GeneratePdf() {
   return (
     <div >
 
-      <h2>Annual Year Activity</h2>
+      
       <span onClick={PDF}><Link to ="#">Annual Year Activity</Link></span>
     </div>
   );
