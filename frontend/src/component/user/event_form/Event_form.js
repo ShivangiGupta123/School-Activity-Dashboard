@@ -16,7 +16,7 @@ function Event_form() {
     axios
       .get("http://localhost:4500/admin/view_added_admin_event")
       .then((res) => {
-        setActivity_name(res.data);
+        setActivity_name(res.data[0]);
         console.log("activity names >> ##", res.data);
       })
       .catch((error) => {
